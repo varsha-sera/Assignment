@@ -9,21 +9,15 @@ int checkpalindrome(char *s)
     {
     	if(s[i]==s[n-i-1])
     	c++;
- 
  	}
  	if(c==i)
         return 1;
     else
-        return 0;
- 
- 	
-	  
+        return 0;	  
  }
 int main()
 {
- 
     char s[1000];  
-   
     printf("Enter  the string: ");
     gets(s);
     
@@ -32,7 +26,5 @@ int main()
  	    printf("string is palindrome");
     else
         printf("string is not palindrome");
- 
-     
-     
+      
 }

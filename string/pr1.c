@@ -1,5 +1,4 @@
 #include <string.h>
- 
 void stringlowercase(char *s)
 {
 	int i;
@@ -8,10 +7,7 @@ void stringlowercase(char *s)
         {
           if(s[i]>=65 && s[i]<=90)
           s[i]+=32;
- 	    }
- 
-     
- 	
+ 	    }	
 }
 int main()
 {
@@ -22,7 +18,6 @@ int main()
     printf("Enter  the string: ");
     gets(s);
     
- 
     stringlowercase(s);
      
     printf("string in lowercase ='%s'\n",s);

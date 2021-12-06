@@ -11,14 +11,14 @@ int main()
 	{
 	scanf("%d",&a[i]);
     }
-	printf("Enter positio for deletion:\n");
+	printf("Enter position for deletion:\n");
 	scanf("%d",&pos);
 	for(i=pos-1;i<n-1;i++)
 	{
 		a[i] = a[i+1];
 	}
 	n--;
-	printf("After deletion :");
+	printf("After deletion :\n");
 	for(i=0;i<n;i++)
 	{
 		printf("%d",a[i]);
